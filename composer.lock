@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db3817c6fd9a0c50bf1f6ab4494e79fd",
+    "content-hash": "15f915cd644a64611091ff2a9d7a4d3d",
     "packages": [
         {
             "name": "psr/cache",
@@ -210,16 +210,16 @@
         },
         {
             "name": "shyguy81/food-choice-core",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shyguy81/food-choice-core.git",
-                "reference": "20307cbfe64da532bf0095c69d43b5b5836ae0f3"
+                "reference": "257499cd1142c48162baca4035968a18b382526d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shyguy81/food-choice-core/zipball/20307cbfe64da532bf0095c69d43b5b5836ae0f3",
-                "reference": "20307cbfe64da532bf0095c69d43b5b5836ae0f3",
+                "url": "https://api.github.com/repos/shyguy81/food-choice-core/zipball/257499cd1142c48162baca4035968a18b382526d",
+                "reference": "257499cd1142c48162baca4035968a18b382526d",
                 "shasum": ""
             },
             "require": {
@@ -228,7 +228,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -250,7 +249,7 @@
                 }
             ],
             "description": "Core domain library for the FoodChoice app",
-            "homepage": "https://github.com/shyguy81/food-choice-core",
+            "homepage": "https://github.com/shyguy81/food_choice_pkg",
             "keywords": [
                 "domain",
                 "food",
@@ -258,10 +257,10 @@
                 "suggestion"
             ],
             "support": {
-                "issues": "https://github.com/shyguy81/food-choice-core/issues",
-                "source": "https://github.com/shyguy81/food-choice-core.git"
+                "issues": "https://github.com/shyguy81/food_choice_pkg/issues",
+                "source": "https://github.com/shyguy81/food_choice_pkg.git"
             },
-            "time": "2026-01-09T12:11:02+00:00"
+            "time": "2026-01-09T11:05:45+00:00"
         },
         {
             "name": "symfony/cache",
@@ -1973,9 +1972,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "shyguy81/food-choice-core": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
