@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": "^8.1",
-    "shyguy81/food-choice-core": "*",
+    "shyguy81/food-choice-core": "dev-main",
     "symfony/framework-bundle": "^6.0 || ^7.0"
   },
   "autoload": {
