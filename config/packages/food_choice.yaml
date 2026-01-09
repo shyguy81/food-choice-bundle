@@ -1,0 +1,3 @@
+food_choice:
+  repository_service: "app.food_choice.repository"
+  image_storage_service: "app.food_choice.image_storage"

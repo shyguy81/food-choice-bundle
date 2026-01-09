@@ -2,3 +2,27 @@ services:
   # Services shipped by the bundle can be declared here.
   # By default the bundle only provides the extension which creates aliases
   # from the core interfaces to the configured service ids.
+
+  app.food_choice.repository:
+    class: 'Shyguy\\FoodChoiceBundle\\Adapter\\CoreRepositoryAdapter'
+    arguments:
+      - "@doctrine.orm.entity_manager"
+      - 'App\\Entity\\Food'
+      - 'App\\Entity\\CookedFood'
+      - 'App\\Entity\\Cuisine'
+    autowire: true
+    public: true
+
+  app.food_choice.image_storage:
+    class: 'Shyguy\\FoodChoiceBundle\\Adapter\\MinioImageStorageAdapter'
+    arguments:
+      - "@minio.client"
+      - "default"
+    autowire: true
+    public: true
+
+  app.food_choice.controller.food:
+    class: 'Shyguy\\FoodChoiceBundle\\Controller\\FoodController'
+    autowire: true
+    public: false
+    tags: ["controller.service_arguments"]
