@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": "^8.1",
-    "shyguy81/food-choice-core": "dev-main",
+    "shyguy81/food-choice-core": "^1.0 || dev-main",
     "symfony/framework-bundle": "^6.0 || ^7.0"
   },
   "autoload": {
@@ -18,6 +18,17 @@
       "Shyguy\\FoodChoiceBundle\\": "src/"
     }
   },
+  "keywords": [
+    "symfony",
+    "bundle",
+    "food",
+    "php"
+  ],
+  "support": {
+    "issues": "https://github.com/shyguy81/food_choice_pkg/issues",
+    "source": "https://github.com/shyguy81/food_choice_pkg.git"
+  },
+  "homepage": "https://github.com/shyguy81/food_choice_pkg",
   "extra": {
     "branch-alias": {
       "dev-main": "1.0-dev"
