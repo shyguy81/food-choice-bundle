@@ -214,12 +214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shyguy81/food-choice-core.git",
-                "reference": "d0299d1cb040ccd234657f542d6d34686f95cd5d"
+                "reference": "20307cbfe64da532bf0095c69d43b5b5836ae0f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shyguy81/food-choice-core/zipball/d0299d1cb040ccd234657f542d6d34686f95cd5d",
-                "reference": "d0299d1cb040ccd234657f542d6d34686f95cd5d",
+                "url": "https://api.github.com/repos/shyguy81/food-choice-core/zipball/20307cbfe64da532bf0095c69d43b5b5836ae0f3",
+                "reference": "20307cbfe64da532bf0095c69d43b5b5836ae0f3",
                 "shasum": ""
             },
             "require": {
@@ -258,10 +258,10 @@
                 "suggestion"
             ],
             "support": {
-                "issues": "https://github.com/shyguy81/food_choice_pkg/issues",
-                "source": "https://github.com/shyguy81/food_choice_pkg.git"
+                "issues": "https://github.com/shyguy81/food-choice-core/issues",
+                "source": "https://github.com/shyguy81/food-choice-core.git"
             },
-            "time": "2026-01-09T12:07:14+00:00"
+            "time": "2026-01-09T12:11:02+00:00"
         },
         {
             "name": "symfony/cache",

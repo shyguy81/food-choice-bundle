@@ -17,10 +17,10 @@ final class Configuration implements ConfigurationInterface
     $root
       ->children()
       ->scalarNode('repository_service')
-      ->defaultValue('App\\Adapter\\Repository\\DoctrineRepository')
+      ->defaultNull()
       ->end()
       ->scalarNode('image_storage_service')
-      ->defaultValue('App\\Adapter\\Storage\\MinioImageAdapter')
+      ->defaultNull()
       ->end()
       ->end();
 
