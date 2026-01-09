@@ -1,0 +1,4 @@
+services:
+  # Services shipped by the bundle can be declared here.
+  # By default the bundle only provides the extension which creates aliases
+  # from the core interfaces to the configured service ids.
