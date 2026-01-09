@@ -5,7 +5,6 @@ Bundle d'intégration pour `shyguy81/food-choice-core`.
 Installation (local):
 
 ```bash
-cd packages/food-choice-bundle
 composer install
 ```
 
