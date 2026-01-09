@@ -3,6 +3,7 @@
   "description": "Symfony bundle to integrate shyguy81/food-choice-core into a Symfony app",
   "type": "symfony-bundle",
   "license": "MIT",
+  "homepage": "https://github.com/shyguy81/food-choice-bundle",
   "authors": [
     {
       "name": "shyguy81"
@@ -25,10 +26,9 @@
     "php"
   ],
   "support": {
-    "issues": "https://github.com/shyguy81/food_choice_pkg/issues",
-    "source": "https://github.com/shyguy81/food_choice_pkg.git"
+    "issues": "https://github.com/shyguy81/food-choice-bundle/issues",
+    "source": "https://github.com/shyguy81/food-choice-bundle.git"
   },
-  "homepage": "https://github.com/shyguy81/food_choice_pkg",
   "extra": {
     "branch-alias": {
       "dev-main": "1.0-dev"
